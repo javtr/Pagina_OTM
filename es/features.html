@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Software de análisis para volumen y delta - OTM trading System - Caracteristicas </title>
+    <link rel="shortcut icon" href="/img/favicon_a.ico" type="image/x-icon">
+
+
+
+    <link rel="stylesheet" href="../css/style-feat.css">
+    <link rel="stylesheet" href="../css/style-footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+
+    <script>
+        (function (m, a, i, l, e, r) {
+            m['MailerLiteObject'] = e; function f() {
+                var c = { a: arguments, q: [] }; var r = this.push(c); return "number" != typeof r ? r : f.bind(c.q);
+            }
+            f.q = f.q || []; m[e] = m[e] || f.bind(f.q); m[e].q = m[e].q || f.q; r = a.createElement(i);
+            var _ = a.getElementsByTagName(i)[0]; r.async = 1; r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+            _.parentNode.insertBefore(r, _);
+        })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+        var ml_account = ml('accounts', '1886288', 'r6x8i0w8b0', 'load');
+    </script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYZZYBZ8M1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NYZZYBZ8M1');
+</script>
+
+
+
+
+</head>
+
+<body class="container">
+
+    <!-- ====================== navbar =========================== -->
+    <nav class="nav">
+        <div class="cont">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/logo.svg" alt=""></a>
+                </div>
+                <ul>
+                    <li><a href="../es/index.html">OTM</a> </li>
+                    <li><a class="active" href="#">Características</a> </li>
+                    <li><a href="../es/licence.html">Comprar</a> </li>
+                    <li><a href="../es/analisys.html">Ejemplos</a> </li>
+                    <li><a href="../php/form-contact-es/">Contacto</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+
+    <!-- ====================== body =========================== -->
+
+    <div class="general">
+        <div class="container">
+
+            <div class="aside">
+
+                <h2 class="titulo">Indicadores</h2>
+
+                <ul class="lista">
+                    <hr class="linea">
+                    <li class="item"><a href="#swing">Delta Swing</a></li>
+                    <hr class="linea">
+                    <li class="item"><a href="#micro">Delta Micro</a></li>
+                    <hr class="linea">
+                    <li class="item"><a href="#cumulative">Delta Cumulative</a></li>
+                    <hr class="linea">
+                    <li class="item"><a href="#bar">Delta Bar</a></li>
+                    <hr class="linea">
+                    <li class="item"><a href="#profile">Volume Profile</a></li>
+                    <hr class="linea">
+                    <li class="item"><a href="#bar-timer">Bar Timer</a></li>
+                    <hr class="linea">
+                    <li class="item"><a href="#instalacion">Instalación y configuración</a></li>
+                    <hr class="linea">
+                </ul>
+            </div>
+
+
+
+            <div class="body">
+
+                <div class="card" id="swing">
+
+
+                    <div class="cont-img">
+                        <img src="../img/features-swi.jpg" alt="" class="image">
+                    </div>
+                    <div class="body-card">
+                        <h2 class="title" id="title-card">OTM Delta Swing</h2>
+                        <p id="p-card">Alguna vez se ha preguntado, ¿Cómo puede medir la fuerza de los movimientos del
+                            precio?. Es posible con Delta Swing.
+                            Este indicador le permite ver numéricamente el volumen y delta de los movimientos del
+                            precio. Fácilmente identificará la fuerza que tiene un retroceso o un impulso (2).
+                            OTM le ayudará a leer la información de la siguiente manera:
+                        </p>
+                        <h2 class="body-title-1">Señales de agotamiento</h2>
+                        <p id="p-card">Los algoritmos leerán la información de los compradores y vendedores, si existe
+                            un desequilibrio arrojará una señal de compra o venta (1).</p>
+                        <h2 class="body-title-1">Señales de esfuerzo no resultado</h2>
+                        <p id="p-card">Cuando existe demasiado volumen y el precio no desarrolla movimiento, es señal de
+                            actividad institucional, la señal de esfuerzo no resultado aparecerá cada vez que ocurra
+                            esto (1). </p>
+                        <h2 class="body-title-1">Señal de anomalías en delta</h2>
+                        <p id="p-card">Las divergencias delta se producen cuando el delta no es coherente con la
+                            dirección del precio. Si el precio sube lo normal es tener delta positivo, en ocasiones se
+                            producen anomalías y el delta es negativo.
+                            Cuando ocurre esto aparecerá una caja punteada como señal informativa (3).
+                            Entienda a profundidad las señales de compra y venta de OTM Delta Swing,
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" id="micro">
+
+
+                    <div class="cont-img">
+                        <img src="../img/features-mic.jpg" alt="" class="image">
+                    </div>
+
+
+                    <div class="body-card">
+
+
+                        <h2 class="title" id="title-card">OTM Delta Micro</h2>
+
+                        <p id="p-card">Un movimiento confiable se caracteriza por tener velas consecutivas y volumen
+                            constante, sin embargo es importante conocer su fuerza compradora o vendedora (delta).
+                            Delta Micro le permite agrupar el delta por movimientos consecutivos, es decir, velas del
+                            mismo sentido (1). De esta manera podrá diferenciar los movimientos consistentes de los no
+                            consistentes.
+                            La identificación visual simple es vital para no perder buenas operaciones, por eso algunas
+                            opciones que ofrece este indicador son:
+                        </p>
+
+
+                        <h2 class="body-title-1">Volúmenes institucionales</h2>
+                        <p id="p-card">Visualice fácilmente grandes volúmenes de compra o venta, solo necesita observar
+                            una caja excesivamente grande respecto a las demás y sabrá que hay dinero institucional allí
+                            (1).
+                        </p>
+                        <h2 class="body-title-1">Umbrales de referencia</h2>
+                        <p id="p-card">Filtre de manera gráfica los valores de volumen delta para fijarse únicamente en
+                            los movimientos más relevantes (2).
+
+                            Conozca estrategias usando OTM Delta Micro; <span> <a target="_blank" href="https://www.youtube.com/watch?v=6V-nMUkBjZI"> Estrategia de Giros</a>
+                                <a target="_blank" href="https://www.youtube.com/watch?v=GnPat8QTfbM"> Estrategia de continuaciones.</a> </span></p>
+
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="card" id="cumulative">
+
+                    <div class="cont-img">
+                        <img src="../img/features-cum.jpg" alt="" class="image">
+                    </div>
+
+                    <div class="body-card">
+                        <h2 class="title" id="title-card">OTM Delta Cumulative</h2>
+
+                        <p id="p-card">¿Cuándo una tendencia se ha agotado?. ¿El precio está sobrecomprado o
+                            sobrevendido?.
+                            Delta Cumulative ofrece la información de la presión compradora o vendedora en un histograma
+                            delta. Allí podemos observar cuando una tendencia es estable o presenta una transición en el
+                            sentido opuesto (2).
+                        </p>
+
+                        <h2 class="body-title-1">Clímax comprador o vendedor </h2>
+                        <p id="p-card">El excesivo volumen comprador o vendedor puede ser una señal de un posible cambio
+                            de dirección. Filtrando los valores altos podrá identificar excesos de compra o venta
+                            (clímax) (1).
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <div class="card" id="bar">
+
+                    <div class="cont-img">
+                        <img src="../img/features-bar.jpg" alt="" class="image">
+                    </div>
+
+                    <div class="body-card">
+                        <h2 class="title" id="title-card">OTM Delta Bar</h2>
+                        <p id="p-card">Obtenga la información del volumen Delta de cada barra en tiempo real, a su vez podrá
+                            observará los valores máximos y mínimos (1).</p>
+
+                        <h2 class="body-title-1">Divergencias:</h2>
+                        <p id="p-card">Mediante una señal podrá saber cuando una barra no es coherente con su volumen
+                            delta. Si hay una vela alcista y su delta es negativo, el indicador mostrará una señal (2).
+
+                        </p>
+
+                        <h2 class="body-title-1">Umbrales de referencia
+                        </h2>
+                        <p id="p-card">No debe estar viendo la información delta de cada barra, filtre visualmente los
+                            volúmenes más altos para prestar atención en ellos (3).
+                            Obtenga una versión gratis de este indicador<span> <a href="javascript:;" onclick="ml_webform_4337077('show')">Haciendo click acá</a>
+                            </span>
+
+
+                            <script>
+                                var ml_webform_4337077 = ml_account('webforms', '4337077', 'd8l9i7', 'load');
+                                ml_webform_4337077('animation', 'fadeIn');
+                            </script>
+
+                        </p>
+
+
+                    </div>
+                </div>
+
+                <div class="card" id="profile">
+
+                    <div class="cont-img">
+                        <img src="../img/features-pro.jpg" alt="" class="image">
+                    </div>
+
+                    <div class="body-card">
+                        <h2 class="title" id="title-card">OTM Volume Profile</h2>
+                        <p id="p-card">Se ha preguntado, ¿por qué el precio se consolida más en algunos niveles de precio que en otros?.
+
+                            Esto ocurre porque hay niveles preferidos por las grandes instituciones y el precio pasa mucho tiempo allí y se consolida, y en otros menos preferidos el precio avanza más rápido y vertical. Mediante OTM Volume Profile podrá determinar esto fácilmente:
+                            </p>
+
+                            <h2 class="body-title-1">Niveles más negociados</h2>
+                            <p id="p-card">Localizando el centro de control de volumen (VPOC), identificará niveles de precio donde el precio tendrá consolidaciones (2), así mismo tendrá dos niveles de soporte y resistencia objetivas como el área de valor baja (VAL) y alta (VAH), (1).
+                            </p>
+
+                            <h2 class="body-title-1">Niveles menos negociados</h2>
+                            <p id="p-card">Identifique los niveles de precio menos negociados de la sesión (niveles de poco volumen), estos niveles permiten detectar posibles grandes movimientos (3).
+                            </p>
+
+                            <h2 class="body-title-1">Perfil de volumen dinámico</h2>
+                            <p id="p-card">¿Quiere devolverse unas barras y analizar el perfil de volumen?, no se preocupe, este perfil  se recreará como si estuviera en tiempo real. 
+                            </p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="card" id="bar-timer">
+
+                    <div class="cont-img">
+                        <img src="../img/features-bartimer.jpg" alt="" class="image">
+                    </div>
+
+                    <div class="body-card">
+                        <h2 class="title" id="title-card">OTM BarTimer</h2>
+                        <p id="p-card">OTM BarTimer permite visualizar el tiempo restante para el cierre de una barra, lo hace en una escala de colores y servirá como un semáforo para realizar sus ejecuciones, por defecto tendra el color rojo cuando la barra tiene poco tiempo de creación, amarillo cuando tenga la mitad del tiempo y verde cuando ya tenga más del 75% del tiempo del total de la duración de la barra, allí tienes más confirmación en la información de esa vela.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card" id="instalacion">
+                    <div class="cont-img">
+                        <img src="../img/features-inst.jpg" alt="" class="image">
+                    </div>
+                    <div class="body-card">
+                        <h2 class="title" id="title-card">MANUALES DE INSTALACIÓN Y CONFIGURACIÓN  </h2>
+                        <p id="p-card">Instalar OTM es muy fácil, sigue las instrucciones que están en el manual de
+                            instalación haciendo <span> <a target="_blank"
+                                    href="https://drive.google.com/drive/folders/1ae7eANS0PX__QVRiicnNJ6rg0E5ekjFC?usp=sharing"> click
+                                    aquí </a> </span>
+                        </p>
+                        <p id="p-card">
+                            Así mismo conoce a fondo cada uno de los indicadores en el manual de configuración <span> <a target="_blank"
+                                    href="https://drive.google.com/drive/folders/1ae7eANS0PX__QVRiicnNJ6rg0E5ekjFC?usp=sharing">
+                                    descargar aquí </a> </span>
+                        </p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ====================== footer1 =========================== -->
+    <div class="footer">
+
+
+        <div id="button-up">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+
+
+        <div class="footer-cont">
+
+            <div class="cont-foot1">
+                <p class="text">El comercio de futuros, divisas y opciones contiene un riesgo considerable y no es para todos los inversores. Un inversor puede perder potencialmente toda o más de la inversión inicial. El capital de riesgo es el dinero que se puede perder sin poner en peligro la seguridad financiera o el estilo de vida. Sólo el capital de riesgo debe utilizarse para operar y sólo aquellos con suficiente capital de riesgo deben considerar la posibilidad de operar. Los resultados pasados no son necesariamente indicativos de los resultados futuros.</p>
+            </div>
+
+            <div class="cont-foot2">
+                <h3 class="text">OTM Objective Method</h3>
+                <h3 class="text2">info@otmtrading.com</h3>
+                <hr class="linea">
+                <div class="iconos">
+
+                    <a target="_blank" href="https://www.instagram.com/otm_indicadores/"><i
+                        class="ico fa fa-instagram"></i></a>
+                <a target="_blank" href="https://t.me/comunidad3c"><i class="ico fa fa-telegram"></i></a>
+                <a target="_blank" href="https://bit.ly/COMUNIDAD3C"><i class="ico fa fa-youtube"></i></a>
+                
+                </div>
+                <p class="copy">&copy; OTM Trading 2021</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="../js/up.js"></script>
+</body>
+
+</html>

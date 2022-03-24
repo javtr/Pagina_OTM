@@ -1,0 +1,398 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	background: rgb(246, 246, 246);
+}
+
+/* ================================= PAGINA ================================= */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 768px;
+	margin: 0 auto;
+	width: 90%;
+	height: 100%;
+	padding-bottom: 60px;
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	left: 0;
+}
+
+.logo img {
+	margin-top: 35px;
+	margin-bottom: 20px;
+	width: 200px;
+	cursor: pointer;
+}
+
+.container .cont-card {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.075);
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.container .cont-card .card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: rgb(255, 255, 255);
+	box-shadow: 0px 0px 30px rgb(0, 0, 0, .15);
+	border-radius: 5px;
+}
+
+.container .cont-card .card .head-card {
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: space-between;
+	width: 100%;
+	height: 75px;
+	border-radius: 5px 5px 0 0;
+	background: #0082e6;
+	color: white;
+	padding: 0 15px;
+	padding-top: 40px;
+}
+
+.container .cont-card .card .head-card h2 {
+	font-size: 21px;
+}
+.container .cont-card .card .head-card p {
+	font-size: 14px;
+}
+
+.container .cont-card .card .body-card {
+	width: 100%;
+	padding: 0 15px;
+	padding-top: 10px;
+}
+
+.container .cont-card .card .body-card .row1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.container .cont-card .card .body-card hr {
+	margin: 20px 0;
+	width: 100%;
+	color: rgb(236, 236, 236);
+}
+
+.container .cont-card .card .body-card .row1 .item {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	width: 40%;
+	color: rgb(65, 71, 77);
+
+	font-weight: 300;
+}
+
+.container .cont-card .card .body-card .row1 .licence {
+	width: 30%;
+	font-size: 14px;
+	text-align: center;
+	color: rgb(65, 71, 77);
+
+	font-weight: 300;
+}
+
+.container .cont-card .card .body-card .row1 .price {
+	width: 30%;
+	font-size: 14px;
+	text-align: right;
+	color: rgb(65, 71, 77);
+
+	font-weight: 300;
+}
+
+.container .cont-card .card .body-card .row2 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+}
+
+.container .cont-card .card .body-card .row2 .item {
+	width: 40%;
+	text-align: left;
+}
+
+.container .cont-card .card .body-card .row2 .item p {
+	display: inline-block;
+	width: 80%;
+	height: 30px;
+	color: rgb(65, 71, 77);
+	padding: 5px 0;
+	padding-left: 5px;
+	font-weight: 300;
+	text-align: left;
+	font-style: italic;
+	font-size: 14px;
+	border: 1px solid rgb(192, 192, 192);
+	background: rgb(246, 246, 246);
+}
+
+.container .cont-card .card .body-card .row2 .lifetime {
+	display: inline-block;
+	width: 30%;
+	height: 30px;
+	color: rgb(65, 71, 77);
+
+	padding: 5px 0;
+	padding-left: 5px;
+	font-weight: 300;
+	text-align: left;
+	font-style: italic;
+	font-size: 14px;
+	border: 1px solid rgb(192, 192, 192);
+	background: rgb(246, 246, 246);
+}
+
+.container .cont-card .card .body-card .row2 .valuep {
+	width: 30%;
+	text-align: right;
+	font-size: 18px;
+	font-weight: 700;
+	color: rgb(65, 71, 77);
+}
+
+.container .cont-card .card .body-card .row3 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: right;
+	margin: 30px 0;
+	text-align: right;
+	float: right;
+}
+
+.container .cont-card .card .body-card .row3 h2 .total {
+	width: 30%;
+	font-size: 14px;
+	color: rgb(65, 71, 77);
+
+	font-weight: 300;
+}
+
+.container .cont-card .card .body-card .row3 h2 {
+	font-size: 18px;
+	font-weight: 700;
+	color: rgb(65, 71, 77);
+}
+
+.container .cont-payment {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.container .cont-payment {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	background: rgb(255, 255, 255);
+	box-shadow: 0px 0px 30px rgb(0, 0, 0, .15);
+	border-radius: 5px;
+}
+
+.container .cont-payment .aside {
+	margin: 20px;
+	height: auto;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container .cont-payment .aside img {
+	max-width: 50%;
+	height: auto;
+}
+
+.container .cont-payment .aside hr {
+	width: 95%;
+	height: 1px;
+	background: rgb(189, 189, 189);
+	border: none;
+	margin: 20px 0;
+}
+
+.container .cont-payment .aside p {
+	font-size: 14px;
+	color: rgb(65, 71, 77);
+	font-weight: 300;
+	font-style: italic;
+	text-align: justify;
+	text-justify: inter-word;
+	padding: 10px 20px;
+	padding-bottom: 5px;
+}
+
+.container .cont-payment .aside .finan {
+	text-align: left;
+	padding: 10px 20px;
+
+	width: 100%;
+}
+
+.container .cont-payment .aside .finan a {
+	/* display: inline-block; */
+	font-size: 14px;
+	color: rgb(30, 166, 154);
+	font-weight: 300;
+	font-style: italic;
+	/* font-weight: bold; */
+	/* text-align: justify; */
+	/* text-justify: inter-word; */
+	/* padding: 10px 20px; */
+	/* padding-bottom: 5px; */
+}
+
+.container .cont-payment .cont-pagos {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin-right: 20px;
+}
+
+.container .cont-payment .cont-pagos .teach {
+	margin-top: 40px;
+	height: auto;
+	width: 100%;
+}
+
+.container .cont-payment .cont-pagos p span {
+	font-size: 10px;
+	color: rgb(109, 109, 109);
+	font-weight: 300;
+	font-style: italic;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.container .cont-payment .cont-pagos p {
+	font-size: 14px;
+	color: rgb(30, 166, 154);
+	font-weight: 300;
+	font-style: italic;
+	font-weight: bold;
+	text-align: justify;
+	text-justify: inter-word;
+	padding: 10px 20px;
+	padding-bottom: 5px;
+}
+
+.container .cont-payment .cont-pagos .teach a {
+	display: inline-block;
+	text-align: center;
+	background: rgb(30, 166, 154);
+	padding: 14px 0;
+	color: white;
+	cursor: pointer;
+	width: 100%;
+	border-radius: 4px;
+	border: none;
+}
+
+.container .cont-payment .cont-pagos hr {
+	width: 95%;
+	height: 1px;
+	background: rgb(189, 189, 189);
+	border: none;
+	margin: 20px 0;
+}
+
+.container .cont-payment .cont-pagos .paypal {
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ==================================== breakpoints ========================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+/* <!-- ====================================================================================== --> */
+
+@media (max-width: 767px) {
+	/* <!-- ===== navbar ====== --> */
+
+	/* <!-- ===== pack ===== --> */
+
+	.container .cont-card .card .body-card .row2 .item p {
+		height: 45px;
+	}
+
+	.container .cont-card .card .body-card .row2 .lifetime {
+		height: 45px;
+	}
+
+	.container .cont-payment {
+		flex-direction: column-reverse;
+	}
+
+	.container .cont-payment .aside {
+		width: 100%;
+	}
+
+	.container .cont-payment .cont-pagos {
+		flex-direction: column;
+		width: 90%;
+		margin-right: 0px;
+	}
+
+	/* <!-- ===== footer  ====== --> */
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+	/* <!-- ===== navbar ====== --> */
+
+	/* <!-- ===== general  ====== --> */
+
+	/* <!-- ===== footer  ====== --> */
+}
