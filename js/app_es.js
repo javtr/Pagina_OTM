@@ -10,6 +10,10 @@ var text_1 = document.getElementById('p-card-1');
 var text_2 = document.getElementById('p-card-2');
 var text_3 = document.getElementById('p-card-3');
 
+
+//algo
+
+
 var btn1 = document.querySelector('#btn1');
 var btn2 = document.querySelector('#btn2');
 var btn3 = document.querySelector('#btn3');
