@@ -160,6 +160,9 @@ if (!empty($_SESSION['_contact_form_success'])) {
             }
         ?>
 
+<form method="post" action="submit.php" class="contact-form">
+
+
 
         <div class="licence-card">
             <div class="licence-header">¡No cierres esta ventana hasta completar tu proceso!</div>
@@ -198,13 +201,18 @@ if (!empty($_SESSION['_contact_form_success'])) {
 
             <button class="btn btn-primary btn-block btn licence-form--send">SEND</button>
         
+
             <div class="licence-text part-a">• Recibirás en tu correo tu software en un plazo de 1 día hábil (8 a 5 PM GMT- 4).</div>
             <div class="licence-text part-b">• Si tienes cualquier inquietud no dudes en contactarnos:</div>
             <div class="licence-text part-c">info@otmtrading.com</div>
             <div class="licence-text part-c">WhatsApp de soporte +573113006826</div>
         
         
-        </div>            
+        </div>  
+        
+        </form>
+
+
     </div>
 </section>
 
