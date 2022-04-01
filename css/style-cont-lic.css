@@ -512,6 +512,47 @@ body {
 
 
 
+
+.sucess {
+	text-align: center;
+	margin: 30px 0;
+	width: 100%;
+}
+
+.sucess .sucess-element {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	background: rgb(0, 200, 80);
+	padding: 10px 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px rgb(0, 200, 80, .4);
+	width: 100%;
+	max-width: 850px;
+}
+
+.error {
+	text-align: center;
+	margin: 30px 0;
+}
+
+.error .error-element {
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	background: rgb(255, 45, 66);
+	padding: 10px 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 15px rgb(255, 45, 66, .4);
+	width: 100%;
+	max-width: 850px;
+}
+
+
+
+
+
+
+
+
 .licence-logo {
   margin-bottom: 1.875rem;
 }
@@ -523,11 +564,27 @@ body {
 	  }
   }
   
-  @media (min-width: 1200px) {
+
+  @media (min-width: 1000px) {
 	.licence-logo {
-		margin-bottom: 2.3rem;
+		margin: 0 auto;
+
+		margin-bottom: 2rem;
+		width: 850px;
 	  }
   }
+
+
+
+  @media (min-width: 1200px) {
+	.licence-logo {
+		margin: 0 auto;
+
+		margin-bottom: 2.3rem;
+		width: 850px;
+	  }
+  }
+
 
 
 
@@ -554,6 +611,8 @@ body {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   position: relative;
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {

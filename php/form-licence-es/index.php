@@ -129,9 +129,38 @@ if (!empty($_SESSION['_contact_form_success'])) {
 
 <section class="licence">
     <div class="licence-container">
+
+
+
+
+
         <div class="licence-logo">
             <img src="../../img/logo_azul.svg" alt="">
         </div>
+
+
+        <?php
+            if (!empty($success)) {
+                    ?>
+                <div class="sucess">
+                    <a class="sucess-element">Tu mensaje ha sido entregado! <br> pronto enviaremos a tu correo tu software OTMtrading</a>
+                </div>
+                <?php
+            }
+        ?>
+
+        <?php
+            if (!empty($error)) {
+                    ?>
+                <div class="error">
+                    <div><?= $error ?></div>
+                    <a class="error-element">Tu mensaje no ha podido ser entragado <br> Si el error persiste contacta a contact@otmtrading.com </a>
+                </div>                        
+                <?php
+            }
+        ?>
+
+
         <div class="licence-card">
             <div class="licence-header">¡No cierres esta ventana hasta completar tu proceso!</div>
             <div class="licence-title">Gracias por adquirir OTM Software</div>
@@ -142,9 +171,6 @@ if (!empty($_SESSION['_contact_form_success'])) {
             </div>
             <div class="licence-pieimagen">El código Machine ID es generado por NinjaTrader basado en el hardware y software principal de sistema</div>
             <div class="licence-numeral2">2. Después de enviar este formulario, crearemos la licencia para tu equipo.</div>
-
-
-
 
 
             <div class="licence-form--input">
