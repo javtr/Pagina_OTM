@@ -941,26 +941,18 @@ body {
   }
 
 
-
-
-
-
 .cap2 {
   margin-bottom: 20px;
 }
 
 .licence-text {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   text-align: left;
-  color: #939393;
-  /* margin-bottom: 40px; */
+  color: #545454;
   padding: 5px 7px;
+  margin-bottom: 10px;
 }
-
-
-
-
 
 
 .part-c {
@@ -970,17 +962,24 @@ body {
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
 	.licence-text {
-		font-size: 14px;
-
+		font-size: 16px;
 	  }
-	  
+
+	  .part-c {
+		margin-left: 14px;
+	  }
+
   }
   
   @media (min-width: 1200px) {
 	.licence-text {
-		font-size: 16px;
-
+		font-size: 20px;
 	  }
+
+	  .part-c {
+		margin-left: 18px;
+	  }
+
   }
 
 

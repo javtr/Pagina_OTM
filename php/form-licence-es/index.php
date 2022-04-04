@@ -167,8 +167,8 @@ if (!empty($_SESSION['_contact_form_success'])) {
         <div class="licence-card">
             <div class="licence-header">¡No cierres esta ventana hasta completar tu proceso!</div>
             <div class="licence-title">Gracias por adquirir OTM Software</div>
-            <div class="licence-subtitle">Sigue los siguientes pasos para obtener OTM</div>
-            <div class="licence-numeral">1. Obten el Machine ID de tu ninjatrader</div>
+            <div class="licence-subtitle">Sigue atentamente estos pasos para tener tu OTM</div>
+            <div class="licence-numeral">1. Obtén el Machine ID de tu NinjaTrader 8</div>
             <div class="licence-img">
                 <img src="../../img/id.jpg" alt="" srcset="">
             </div>
