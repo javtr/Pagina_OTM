@@ -34,7 +34,7 @@ if (!empty($_SESSION['_contact_form_success'])) {
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 
     <!-- reCAPTCHA Javascript -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </head>
 <body>
 
@@ -196,7 +196,7 @@ if (!empty($_SESSION['_contact_form_success'])) {
                 <textarea name="message" id="message" class="licence-form--boxMesagge" rows="6" placeholder="" ></textarea>
             </div>
 
-            <div class="g-recaptcha cap2" data-sitekey="<?= CONTACTFORM_RECAPTCHA_SITE_KEY ?>"></div>
+            <!-- <div class="g-recaptcha cap2" data-sitekey="<?= CONTACTFORM_RECAPTCHA_SITE_KEY ?>"></div> -->
 
 
             <button class="btn btn-primary btn-block btn licence-form--send">SEND</button>
