@@ -20,7 +20,7 @@ define('CONTACTFORM_TO_NAME', 'Your Name');
 define('CONTACTFORM_SMTP_HOSTNAME', 'smtp.gmail.com');
 define('CONTACTFORM_SMTP_USERNAME', 'objectivetradingmethod@gmail.com');
 // define('CONTACTFORM_SMTP_PASSWORD', 'mhmnxzhyaewxvept');
-define('CONTACTFORM_SMTP_PASSWORD', 'chncnflkfjwljhid');
+define('CONTACTFORM_SMTP_PASSWORD', 'tsztmnzzakrckxoi');
 
 
 
