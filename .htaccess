@@ -1,0 +1,3 @@
+Order allow, deny
+Deny from 123.123.123.123
+Allow from all
