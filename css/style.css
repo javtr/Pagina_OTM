@@ -453,14 +453,14 @@ nav ul li label:hover {
 	z-index: -1;
 	content: '';
 	display: block;
-	border: 5px solid #2980b9;
+	border: 5px solid  #006ec2;
   }
   .ribbon span {
 	position: absolute;
 	display: block;
 	width: 225px;
 	padding: 12px 0;
-	background-color: #3498db;
+	background-color:  #0082e6;
 	box-shadow: 0 5px 10px rgba(0,0,0,.1);
 	color: #fff;
 	font: 700 12px/1 'Lato', sans-serif;
