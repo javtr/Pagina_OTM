@@ -19,15 +19,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NYZZYBZ8M1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NYZZYBZ8M1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-NYZZYBZ8M1');
-</script>
+        gtag('config', 'G-NYZZYBZ8M1');
+    </script>
 
 
 
@@ -79,17 +79,18 @@
                     <hr class="linea">
                     <li class="item"><a href="#profile">Volume Profile</a></li>
                     <hr class="linea">
+                    <li class="item"><a href="#vwap">VWAP</a></li>
+                    <hr class="linea">
+                    
                     <li class="item"><a href="#bar-timer">Bar Timer</a></li>
                     <hr class="linea">
                     <!-- <li class="item"><a href="#instalacion">Installation and configuration</a></li>
                     <hr class="linea"> -->
                 </ul>
             </div>
-
-
-
             <div class="body">
 
+                <!-- swing -->
                 <div class="card" id="swing">
 
 
@@ -98,23 +99,31 @@
                     </div>
                     <div class="body-card">
                         <h2 class="title" id="title-card">OTM Delta Swing</h2>
-                        <p id="p-card">Have you ever wondered if you can measure the strength of price movements? It is possible with Delta Swing! This indicator allows you to
-                            numerically see the volume and delta of price movements. You can easily identify the strength of a pullback or momentum (2). OTM will
+                        <p id="p-card">Have you ever wondered if you can measure the strength of price movements? It is
+                            possible with Delta Swing! This indicator allows you to
+                            numerically see the volume and delta of price movements. You can easily identify the
+                            strength of a pullback or momentum (2). OTM will
                             help you read the information as follows:
                         </p>
                         <h2 class="body-title-1">Exhaustion signals</h2>
-                        <p id="p-card">Our algorithms will read information from buyers and sellers, if there is an imbalance it will provide a buying or selling signal (1).</p>
-                        
+                        <p id="p-card">Our algorithms will read information from buyers and sellers, if there is an
+                            imbalance it will provide a buying or selling signal (1).</p>
+
                         <h2 class="body-title-1">Effort/ no result signals</h2>
-                        <p id="p-card">When there is too much volume and the price does not make any movement, it is a sign of institutional activity, the effort/ no result signal
+                        <p id="p-card">When there is too much volume and the price does not make any movement, it is a
+                            sign of institutional activity, the effort/ no result signal
                             will appear every time this happens (1).</p>
-                        
+
                         <h2 class="body-title-1">Delta divergences signals</h2>
-                        <p id="p-card">Delta divergences occur when the delta is not consistent with the price direction. If the price is rising it is normal to have positive delta, sometimes divergences occur and the delta is negative. When this occurs a dotted box will appear as an informative signal (3). Get an in-depth understanding of the OTM Delta Swing buy and sell signals.
+                        <p id="p-card">Delta divergences occur when the delta is not consistent with the price
+                            direction. If the price is rising it is normal to have positive delta, sometimes divergences
+                            occur and the delta is negative. When this occurs a dotted box will appear as an informative
+                            signal (3). Get an in-depth understanding of the OTM Delta Swing buy and sell signals.
                         </p>
                     </div>
                 </div>
 
+                <!-- micro -->
                 <div class="card" id="micro">
 
 
@@ -128,17 +137,22 @@
 
                         <h2 class="title" id="title-card">OTM Delta Micro</h2>
 
-                        <p id="p-card">A reliable movement is characterized by consecutive candles and constant volume, however it is important to know its buying or selling
-                            strength (delta), since the price action can deceive us. Delta Micro allows you to group the delta by consecutive movements, i.e. candlesticks
-                            towards the same direction (1). In this way you will be able to differentiate consistent movements from non-consistent ones. Simple visual
-                            identification is vital to avoid missing good trades. Some options offered by this indicator are:
+                        <p id="p-card">A reliable movement is characterized by consecutive candles and constant volume,
+                            however it is important to know its buying or selling
+                            strength (delta), since the price action can deceive us. Delta Micro allows you to group the
+                            delta by consecutive movements, i.e. candlesticks
+                            towards the same direction (1). In this way you will be able to differentiate consistent
+                            movements from non-consistent ones. Simple visual
+                            identification is vital to avoid missing good trades. Some options offered by this indicator
+                            are:
                         </p>
 
 
                         <h2 class="body-title-1">Institutional volumes.</h2>
-                        <p id="p-card">Easily visualize large buying or selling volumes. The box that is excessively large regarding others, shows the
+                        <p id="p-card">Easily visualize large buying or selling volumes. The box that is excessively
+                            large regarding others, shows the
                             presence of institutional money (1).
-                            
+
                         </p>
                         <h2 class="body-title-1">Reference thresholds</h2>
                         <p id="p-card">Graphically filter delta volume values to only focus on the most relevant
@@ -151,6 +165,7 @@
 
                 </div>
 
+                <!-- cumulative -->
                 <div class="card" id="cumulative">
 
                     <div class="cont-img">
@@ -160,17 +175,26 @@
                     <div class="body-card">
                         <h2 class="title" id="title-card">OTM Delta Cumulative</h2>
 
-                        <p id="p-card">When is a trend exhausted? Is the price overbought or oversold? Delta Cumulative provides information about  the buying or selling pressure in a delta histogram. There, we can observe when a trend is stable or shows a transition in the opposite direction (2).
+                        <p id="p-card">When is a trend exhausted? Is the price overbought or oversold? Delta Cumulative
+                            provides information about the buying or selling pressure in a delta histogram. There, we
+                            can observe when a trend is stable or shows a transition in the opposite direction (2).
                         </p>
 
                         <h2 class="body-title-1">Buying or selling climax</h2>
-                        <p id="p-card">Excessive buying or selling volume can be a sign of a possible change in direction. By filtering the high values you can identify excessive buying or selling (climax) (1).
+                        <p id="p-card">Excessive buying or selling volume can be a sign of a possible change in
+                            direction. By filtering the high values you can identify excessive buying or selling
+                            (climax) (1).
                         </p>
 
 
                     </div>
                 </div>
 
+
+
+
+                
+                <!-- delta bar -->
                 <div class="card" id="bar">
 
                     <div class="cont-img">
@@ -179,23 +203,27 @@
 
                     <div class="body-card">
                         <h2 class="title" id="title-card">OTM Delta Bar</h2>
-                        <p id="p-card">Obtain each bar´s delta volumen information in real time, as well as the máximum and mínimum values (1).</p>
+                        <p id="p-card">Obtain each bar´s delta volumen information in real time, as well as the máximum
+                            and mínimum values (1).</p>
 
                         <h2 class="body-title-1">Divergences:</h2>
-                        <p id="p-card">By using the signal you will be able to identify when a bar is not consistent with its delta volume. If there is a bullish candle and its delta is
+                        <p id="p-card">By using the signal you will be able to identify when a bar is not consistent
+                            with its delta volume. If there is a bullish candle and its delta is
                             negative, the indicator will show the signal (2).
 
                         </p>
 
                         <h2 class="body-title-1">Reference thresholds
                         </h2>
-                        <p id="p-card">Do not look at the information on each bar, visually filter the highest volumes to pay attention to them (3). 
+                        <p id="p-card">Do not look at the information on each bar, visually filter the highest volumes
+                            to pay attention to them (3).
                         </p>
 
 
                     </div>
                 </div>
 
+                <!-- profile -->
                 <div class="card" id="profile">
 
                     <div class="cont-img">
@@ -204,33 +232,60 @@
 
                     <div class="body-card">
                         <h2 class="title" id="title-card">OTM Volume Profile</h2>
-                        <p id="p-card">Have you ever wondered why the price consolidates more at some price levels than others? This is because some levels are
-                            preferred by large institutions so the price stays longer there, generating consolidations. While in the less preferred zones, the
-                            price moves vertically and faster. By using OTM Volume Profile you can easily determine this:
-                            </p>
+                        <p id="p-card">Have you ever wondered why the price consolidates more at some price levels than
+                            others? This is because some levels are
+                            preferred by large institutions so the price stays longer there, generating consolidations.
+                            While in the less preferred zones, the
+                            price moves vertically and faster. By using OTM Volume Profile you can easily determine
+                            this:
+                        </p>
 
-                            <h2 class="body-title-1">Most traded levels.</h2>
-                            <p id="p-card">Price levels where the price will consolidate, by Identifying the volume control center (VPOC) (2). Besides, two objective
-                                support and resistance levels such as the value area low (VAL) and high (VAH), (1).
-                            </p>
+                        <h2 class="body-title-1">Most traded levels.</h2>
+                        <p id="p-card">Price levels where the price will consolidate, by Identifying the volume control
+                            center (VPOC) (2). Besides, two objective
+                            support and resistance levels such as the value area low (VAL) and high (VAH), (1).
+                        </p>
 
-                            <h2 class="body-title-1">Less traded levels</h2>
-                            <p id="p-card">Identify the least traded price levels of the session (low volume levels). These levels allow to detect possible big movements (3).
-                            </p>
+                        <h2 class="body-title-1">Less traded levels</h2>
+                        <p id="p-card">Identify the least traded price levels of the session (low volume levels). These
+                            levels allow to detect possible big movements (3).
+                        </p>
 
-                            <h2 class="body-title-1">Dynamic volume profile</h2>
-                            <p id="p-card">Do you want to go back a few bars and analyze the volume profile? Do not worry, this profile will be recreated in
-                                real time. 
-                            </p>
+                        <h2 class="body-title-1">Dynamic volume profile</h2>
+                        <p id="p-card">Do you want to go back a few bars and analyze the volume profile? Do not worry,
+                            this profile will be recreated in
+                            real time.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- vwap -->
+                <div class="card" id="vwap">
+
+                    <div class="cont-img">
+                        <img src="../img/features-cum.jpg" alt="" class="image">
+                    </div>
+
+                    <div class="body-card">
+                        <h2 class="title" id="title-card">OTM VWAP</h2>
+
+                        <p id="p-card">When is a trend exhausted? Is the price overbought or oversold? Delta Cumulative
+                            provides information about the buying or selling pressure in a delta histogram. There, we
+                            can observe when a trend is stable or shows a transition in the opposite direction (2).
+                        </p>
+
+                        <h2 class="body-title-1">Buying or selling climax</h2>
+                        <p id="p-card">Excessive buying or selling volume can be a sign of a possible change in
+                            direction. By filtering the high values you can identify excessive buying or selling
+                            (climax) (1).
+                        </p>
+
+
                     </div>
                 </div>
 
 
-
-
-
-
-
+                <!-- bar timmer -->
                 <div class="card" id="bar-timer">
 
                     <div class="cont-img">
@@ -239,40 +294,14 @@
 
                     <div class="body-card">
                         <h2 class="title" id="title-card">OTM BarTimer</h2>
-                        <p id="p-card">OTM BarTimer allows you to visualize the remaining time for the closing of a bar. For this, it uses a color scale
-                            that will work as a traffic light for your executions. By default, it will have a different color in function of the bar's
+                        <p id="p-card">OTM BarTimer allows you to visualize the remaining time for the closing of a bar.
+                            For this, it uses a color scale
+                            that will work as a traffic light for your executions. By default, it will have a different
+                            color in function of the bar's
                             creation time.
                         </p>
                     </div>
                 </div>
-
-
-                <!-- <div class="card" id="instalacion">
-
-                    <div class="cont-img">
-                        <img src="../img/features-pro.jpg" alt="" class="image">
-                    </div>
-
-                    <div class="body-card">
-                        <h2 class="title" id="title-card">INSTALACIÓN</h2>
-                        <p id="p-card">Se ha preguntado, ¿por qué el precio se consolida más en algunos niveles de precio que en otros?.
-
-                            Esto ocurre porque hay niveles preferidos por las grandes instituciones y el precio pasa mucho tiempo allí y se consolida, y en otros menos preferidos el precio avanza más rápido y vertical. Mediante OTM Volume Profile podrá determinar esto fácilmente:
-                            </p>
-
-                            <h2 class="body-title-1">Niveles más negociados</h2>
-                            <p id="p-card">Localizando el centro de control de volumen (VPOC), identificará niveles de precio donde el precio tendrá consolidaciones (2), así mismo tendrá dos niveles de soporte y resistencia objetivas como el área de valor baja (VAL) y alta (VAH), (1).
-                            </p>
-
-                            <h2 class="body-title-1">Niveles menos negociados</h2>
-                            <p id="p-card">Identifique los niveles de precio menos negociados de la sesión (niveles de poco volumen), estos niveles permiten detectar posibles grandes movimientos (3).
-                            </p>
-
-                            <h2 class="body-title-1">Perfil de volumen dinámico</h2>
-                            <p id="p-card">¿Quiere devolverse unas barras y analizar el perfil de volumen?, no se preocupe, este perfil  se recreará como si estuviera en tiempo real. 
-                            </p>
-                    </div>
-                </div>                 -->
 
 
 
@@ -292,7 +321,11 @@
         <div class="footer-cont">
 
             <div class="cont-foot1">
-                <p class="text">Trading futures, forex and options contains considerable risk and is not for all investors. An investor can potentially lose all or more than the initial investment. Risk capital is money that can be lost without jeopardizing financial security or lifestyle. Only risk capital should be used for trading and only those with sufficient risk capital should consider trading. Past performance is not necessarily indicative of future results.</p>
+                <p class="text">Trading futures, forex and options contains considerable risk and is not for all
+                    investors. An investor can potentially lose all or more than the initial investment. Risk capital is
+                    money that can be lost without jeopardizing financial security or lifestyle. Only risk capital
+                    should be used for trading and only those with sufficient risk capital should consider trading. Past
+                    performance is not necessarily indicative of future results.</p>
             </div>
 
             <div class="cont-foot2">
@@ -302,10 +335,12 @@
                 <div class="iconos">
 
                     <a target="_blank" href="https://www.instagram.com/otm_indicators/"><i
-                        class="ico fa fa-instagram"></i></a>
-                <a target="_blank" href="https://www.instagram.com/otm_indicators/"><i class="ico fa fa-telegram"></i></a>
-                <a target="_blank" href="https://www.youtube.com/channel/UCvwJaFyy9IbkHJOaihPirjw"><i class="ico fa fa-youtube"></i></a>
-                
+                            class="ico fa fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/otm_indicators/"><i
+                            class="ico fa fa-telegram"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCvwJaFyy9IbkHJOaihPirjw"><i
+                            class="ico fa fa-youtube"></i></a>
+
                 </div>
                 <p class="copy">&copy; OTM Trading 2021</p>
             </div>

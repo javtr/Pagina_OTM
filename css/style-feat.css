@@ -121,6 +121,9 @@ nav ul li a:hover {
 }
 
 .general .container .aside {
+	position: fixed;
+	top: 0;
+	left: 0;
 	width: 33%;
 	height: 100%;
 }
@@ -634,10 +637,15 @@ nav ul li a:hover {
 		align-items: center;
 		max-width: 1440px;
 		margin: 0 auto;
-		width: 95%;
+		width: 75%;
 		height: 100%;
 		padding-top: 60px;
 		padding-bottom: 60px;
+				margin-left: 20%;
+
+
+
+
 	}
 	
 	.general .container .aside {

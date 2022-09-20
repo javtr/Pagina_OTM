@@ -11,14 +11,13 @@ var text_2 = document.getElementById('p-card-2');
 var text_3 = document.getElementById('p-card-3');
 
 
-//algo
-
 
 var btn1 = document.querySelector('#btn1');
 var btn2 = document.querySelector('#btn2');
 var btn3 = document.querySelector('#btn3');
 var btn4 = document.querySelector('#btn4');
 var btn5 = document.querySelector('#btn5');
+var btn6 = document.querySelector('#btn6');
 
 var btnlink = document.getElementById('indi-btn');
 
@@ -27,6 +26,7 @@ var a2 = document.getElementById('a2');
 var a3 = document.getElementById('a3');
 var a4 = document.getElementById('a4');
 var a5 = document.getElementById('a5');
+var a6 = document.getElementById('a6');
 
 
 a1.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
@@ -34,23 +34,6 @@ a1.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px 
 
 btn1.addEventListener('click', () => {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 	title.innerHTML = 'OTM Delta Swing';
 
 	title_1.innerHTML = 'Información de volumen por ondas';
@@ -69,7 +52,8 @@ btn1.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	
 	btnlink.href= 'features.html#swing';
 
 
@@ -95,7 +79,8 @@ btn2.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	
 	btnlink.href= 'features.html#micro';
 	
 });
@@ -120,7 +105,7 @@ btn3.addEventListener('click', () => {
 	a3.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 
 	btnlink.href= 'features.html#cumulative';
 	
@@ -145,7 +130,8 @@ btn4.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	
 	btnlink.href= 'features.html#bar';
 	
 });
@@ -169,9 +155,33 @@ btn5.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	
 	btnlink.href= 'features.html#profile';
 	
 });
 
+btn6.addEventListener('click', () => {
+	title.innerHTML = 'OTM VWAP';
 
+	title_1.innerHTML = 'Diferentes temporalidades en un solo indicador: ';
+	text_1.innerHTML ='Vwap diario, semanal, mensual y por fecha';
+
+	title_2.innerHTML = 'Calculos del Vwap: ';
+	text_2.innerHTML ='Calculo del Vwap con horario custom o continuo';
+
+	title_3.innerHTML = 'Curvas de distribucion: ';
+	text_3.innerHTML ='Visualizacion de curvas estadisticas de distribucion estandar';
+
+	imagen.style.backgroundImage = "url('../img/ind_05.gif')";
+
+	a1.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a2.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a5.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
+
+	btnlink.href= 'features.html#profile';
+	
+});

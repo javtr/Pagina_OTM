@@ -25,7 +25,7 @@ var a2 = document.getElementById('a2');
 var a3 = document.getElementById('a3');
 var a4 = document.getElementById('a4');
 var a5 = document.getElementById('a5');
-
+var a6 = document.getElementById('a6');
 
 
 
@@ -53,7 +53,8 @@ btn1.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	
 	btnlink.href = './common/features.html#swing';
 
 
@@ -79,6 +80,8 @@ btn2.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+
 
 	btnlink.href = './common/features.html#micro';
 
@@ -104,7 +107,7 @@ btn3.addEventListener('click', () => {
 	a3.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 
 	btnlink.href = './common/features.html#cumulative';
 
@@ -130,7 +133,8 @@ btn4.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	
 	btnlink.href = './common/features.html#bar';
 
 });
@@ -154,9 +158,35 @@ btn5.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
-
+	a6.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	
 	btnlink.href = './common/features.html#profile';
 
 });
 
+
+btn6.addEventListener('click', () => {
+	title.innerHTML = 'OTM VWAP';
+
+	title_1.innerHTML = 'Most traded levels';
+	text_1.innerHTML = 'Detect price levels where the market will consolidate.';
+
+	title_2.innerHTML = 'Less traded levels';
+	text_2.innerHTML = 'Anticipate low volume levels that trigger large movements.';
+
+	title_3.innerHTML = 'Dynamic Volume Profile';
+	text_3.innerHTML = 'Rebuild market movements as if you were in real time.';
+
+	imagen.style.backgroundImage = "url('./img/ind_05.gif')";
+
+	a1.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a2.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
+	a6.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
+	
+	btnlink.href = './common/features.html#profile';
+
+});
 
