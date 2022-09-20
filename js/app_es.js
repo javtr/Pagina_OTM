@@ -180,8 +180,8 @@ btn6.addEventListener('click', () => {
 	a3.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a4.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a5.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
-	a5.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
+	a6.style.cssText = 'background: #0082e6; color:#ffffff; box-shadow:0px 0px 15px rgb(0, 0, 0, .25)';
 
-	btnlink.href= 'features.html#profile';
+	btnlink.href= 'features.html#vwap';
 	
 });
