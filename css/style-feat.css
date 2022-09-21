@@ -244,6 +244,29 @@ nav ul li a:hover {
   text-decoration: underline;
   color: rgb(80, 128, 160);
 }
+
+.lista-delta{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(65, 71, 77);
+  line-height: 1.5em;
+margin-bottom: 30px;
+}
+
+.lista-delta span{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(80, 128, 160);
+
+}
+
+.lista-delta li{
+  margin-bottom: 5px;
+
+}
+
+
+
 /* <!-- ====================== footer =========================== --> */
 /* 
 .footer {

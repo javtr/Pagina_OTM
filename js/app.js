@@ -120,11 +120,11 @@ btn4.addEventListener('click', () => {
 	title_1.innerHTML = 'Detailed information';
 	text_1.innerHTML = 'Get the Delta volume information for each bar.';
 
-	title_2.innerHTML = 'Divergences';
-	text_2.innerHTML = 'A signal lets you know when a bar is not consistent with the delta.';
+	title_2.innerHTML = 'Different ways of analyzing the delta in a single indicator:';
+	text_2.innerHTML = '•Accumulated delta •Bar delta •Bidirectional bar delta •Buy and Sell •Footer •Volume delta';
 
-	title_3.innerHTML = 'Reference Thresholds';
-	text_3.innerHTML = 'Identify large buying or selling volumes for each candlestick.';
+	title_3.innerHTML = '';
+	text_3.innerHTML = '';
 
 	imagen.style.backgroundImage = "url('./img/ind_04.gif')";
 
@@ -177,7 +177,7 @@ btn6.addEventListener('click', () => {
 	title_3.innerHTML = 'Dynamic Volume Profile';
 	text_3.innerHTML = 'Rebuild market movements as if you were in real time.';
 
-	imagen.style.backgroundImage = "url('./img/ind_05.gif')";
+	imagen.style.backgroundImage = "url('./img/ind_06.gif')";
 
 	a1.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a2.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';

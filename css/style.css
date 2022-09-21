@@ -471,8 +471,8 @@ nav ul li label:hover {
   
   /* top left*/
   .ribbon-top-left {
-	top: -10px;
-	left: -10px;
+	top: -9px;
+	left: -9px;
   }
   
   .ribbon-top-left::before {

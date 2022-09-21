@@ -117,11 +117,12 @@ btn4.addEventListener('click', () => {
 	title_1.innerHTML = 'Información detallada';
 	text_1.innerHTML ='Obtenga la información del volumen Delta de cada barra.';
 
-	title_2.innerHTML = 'Divergencias';
-	text_2.innerHTML ='Mediante una señal podrá saber cuando una barra no es coherente con el delta.';
-
-	title_3.innerHTML = 'Umbrales de referencia';
-	text_3.innerHTML ='Identifique grandes volúmenes de compra o venta por cada vela.	';
+	title_2.innerHTML = 'Diferentes formas de analizar el delta en un solo indicador:';
+	text_2.innerHTML ='•Delta acumulado  •Delta por barra  •Delta por barra bidireccional  •Buy and Sell  •Footer  •Volumen delta';
+	
+	title_3.innerHTML = '';
+	text_3.innerHTML ='';
+	
 
 	imagen.style.backgroundImage = "url('../img/ind_04.gif')";
 
@@ -173,7 +174,7 @@ btn6.addEventListener('click', () => {
 	title_3.innerHTML = 'Curvas de distribucion: ';
 	text_3.innerHTML ='Visualizacion de curvas estadisticas de distribucion estandar';
 
-	imagen.style.backgroundImage = "url('../img/ind_05.gif')";
+	imagen.style.backgroundImage = "url('../img/ind_06.gif')";
 
 	a1.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
 	a2.style.cssText = 'background: #ffffff; color:#0082e6; box-shadow:none';
