@@ -12,8 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
 }
 
 
+//Captcha ------------------------------------------------------------------------------
 
 // Do some validation, check to make sure the name, email and message are valid.
+
 if (empty($_POST['g-recaptcha-response'])) {
     redirectWithError("Please complete the CAPTCHA.");
 }
@@ -38,6 +40,7 @@ if (!$resp->isSuccess()) {
     redirectWithError("Please complete the CAPTCHA: ".$errorMessage);
 }
 
+//-------------------------------------------------------------------------------------
 
 
 
@@ -51,12 +54,22 @@ if (empty($_POST['email'])) {
 }
 
 
+//email filter
 $marks = array("ericjonesmyemail@gmail.com", "no-replyPaf@gmail.com", "linareds@mailfence.com",
 "no.reply.objes@gmail.com","no.reply.feedbackform@gmail.com","carlosercredit@gmail.com",
 "no-replyPlearce@gmail.com","karinaFed@aol.com","no.reply.Lom@gmail.com","annaFed@crosenoutinabsi.tk");
 if (in_array($_POST['email'], $marks))
 {
     redirectWithError("");
+
+}else{
+
+    $domain = array_pop(explode('@', $_POST['email']));
+    $proveedor = array("mondmema.tk","o5o5.ru","crosenoutinabsi.tk");
+    if (in_array($domain, $proveedor))
+    {
+        redirectWithError("");
+    }
 }
 
 
@@ -65,17 +78,10 @@ if (empty($_POST['subject'])) {
     redirectWithError("Please enter the Subject.");
 }
 
-// if (empty($_POST['message'])) {
-//     redirectWithError("Please enter your message in the form.");
-// }
 
 if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
     redirectWithError("Please enter a valid email address.");
 }
-
-// if (strlen($_POST['message']) < 10) {
-//     redirectWithError("Please enter at least 10 characters in the message field.");
-// }
 
 // Everything seems OK, time to send the email.
 
@@ -106,6 +112,8 @@ Subject: {$_POST['subject']}
 
 -------------------------------
 {$_POST['message']}
+
+
 EOT;
 
     $mail->send();
